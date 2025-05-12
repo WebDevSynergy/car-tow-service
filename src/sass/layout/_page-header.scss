@@ -1,7 +1,30 @@
 .page-header {
-    background-color: rgb(217, 255, 142);
+    background-color: var(--primary-bg-color);
 
     @media screen and (max-width: 767px) {
         background-color: aquamarine;
     }
+}
+
+.header-wrap {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 0;
+}
+
+.header-slogan {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header-slogan-city {
+    display: block;
+    font-size: 32px;
+}
+
+.header-phone {
+    font-size: 40px;
+    color: var(--accent-color);
 }
