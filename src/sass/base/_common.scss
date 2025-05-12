@@ -1,0 +1,61 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+    // font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+
+    list-style-type: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+button {
+    color: currentColor;
+
+    cursor: pointer;
+}
+
+main {
+    flex-grow: 1;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}

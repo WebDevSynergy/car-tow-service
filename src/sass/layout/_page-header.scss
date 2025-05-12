@@ -1,0 +1,7 @@
+.page-header {
+    background-color: rgb(217, 255, 142);
+
+    @media screen and (max-width: 767px) {
+        background-color: aquamarine;
+    }
+}
