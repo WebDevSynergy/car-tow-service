@@ -1,7 +1,19 @@
 .page-footer {
-    background-color: rgb(217, 255, 142);
+    background-color: var(--secondary-bg-color);
 
     @media screen and (max-width: 767px) {
-        background-color: aquamarine;
+        background-color: var(--secondary-bg-color);
+    }
+}
+
+.footer-phone {
+    font-size: 40px;
+    color: var(--primary-text-color);
+
+    transition: color var(--animation);
+
+    &:hover,
+    &focus {
+        color: var(--accent-dark);
     }
 }

@@ -9,22 +9,46 @@
 .header-wrap {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 40px;
     padding: 20px 0;
 }
 
-.header-slogan {
-    font-size: 20px;
-    text-align: center;
-    text-transform: uppercase;
+.social-box {
+    width: 140px;
 }
 
-.header-slogan-city {
-    display: block;
-    font-size: 32px;
+.social-box p {
+    margin-bottom: 12px;
+}
+
+.social-list {
+    display: flex;
+    justify-content: space-around;
+
+    color: var(--accent);
+}
+
+.social-list svg {
+    width: 32px;
+    height: 32px;
+
+    color: var(--accent);
+    fill: var(--accent);
+}
+
+.contacts-box {
+    text-align: center;
 }
 
 .header-phone {
     font-size: 40px;
-    color: var(--accent-color);
+    color: var(--accent);
+
+    transition: color var(--animation);
+
+    &:hover,
+    &focus {
+        color: var(--accent-dark);
+    }
 }
