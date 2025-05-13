@@ -1,5 +1,16 @@
-.main-nav {
+.nav-list {
     display: flex;
     align-items: center;
     gap: 20px
+}
+
+.nav-list a {
+    padding: 12px;
+
+    transition: color var(--animation);
+
+    &:hover,
+    &focus {
+        color: var(--accent);
+    }
 }
