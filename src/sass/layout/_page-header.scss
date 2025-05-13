@@ -35,6 +35,12 @@
 
     color: var(--accent);
     fill: var(--accent);
+
+    transition: color var(--animation);
+}
+
+.social-list a:hover svg {
+    color: var(--accent-dark);
 }
 
 .contacts-box {
