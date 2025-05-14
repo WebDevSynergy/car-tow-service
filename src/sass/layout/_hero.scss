@@ -28,7 +28,7 @@
     object-fit: cover;
 }
 
-.form-box {
+.hero-form-box {
     flex-grow: 1;
 
     display: flex;
@@ -38,56 +38,18 @@
     padding: 30px;
 }
 
-.text-box {
+.hero-text-box {
     text-align: center;
 }
 
-.text-box h2 {
+.hero-text-box h2 {
     margin-bottom: 20px;
 
     font-size: 32px;
 }
 
-.text-box p {
+.hero-text-box p {
     margin-bottom: 20px;
 
     font-size: 18px;
-}
-
-.hero-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-
-.hero-form label {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 6px;
-    font-weight: 700;
-
-}
-
-.hero-form input {
-    padding: 10px;
-    margin-bottom: 16px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 16px;
-}
-
-.hero-form button {
-    background-color: var(--accent);
-    color: #fff;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 6px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color var(--animation)
-}
-
-.hero-form button:hover {
-    background-color: var(--accent-dark);
 }

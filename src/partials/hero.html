@@ -9,25 +9,33 @@
                     alt="Евакуатор білого кольору перевозить сірий легковий автомобіль, припаркований біля сучасної будівлі з синьо-сріблястим фасадом.">
             </div>
 
-            <div class="form-box">
-                <div class="text-box">
+            <div class="hero-form-box">
+                <div class="hero-text-box">
                     <h2>Швидка евакуація авто</h2>
 
                     <p>Потрібна допомога на дорозі? Замовляйте евакуатор за хвилину</p>
                 </div>
 
-                <form class="hero-form" id="form-tg">
+                <div class="form-wrap">
+                    <form class="form" id="form-tg">
 
-                    <label>Ваше ім’я:
-                        <input type="text" id="name" name="name" required />
-                    </label>
+                        <label>Ваше ім’я:
+                            <input type="text" id="name" name="name" required />
+                        </label>
 
-                    <label>Номер телефону:
-                        <input type="tel" name="phone" required pattern="[0-9+()\- ]{10,20}" />
-                    </label>
+                        <label>Номер телефону:
+                            <input type="tel" name="phone" required pattern="[0-9+()\- ]{10,20}" />
+                        </label>
 
-                    <button type="submit">Викликати евакуатор</button>
-                </form>
+                        <button type="submit">Викликати евакуатор</button>
+                    </form>
+
+                    <div class="notification">
+                        <p class="notification-success">Запит відправлено, очікуйте на дзвінок</p>
+
+                        <p class="notification-fail">На жаль, сталася помилка. Зв’яжіться з нами телефоном.</p>
+                    </div>
+                </div>
             </div>
         </div>
 
