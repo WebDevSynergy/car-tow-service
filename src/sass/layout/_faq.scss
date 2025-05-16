@@ -1,26 +1,23 @@
 .faq {
     background: linear-gradient(to bottom,
-
             #ffffff 90%,
             #f9bb34 100%);
-
 }
 
-
-
-.faq-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
 
 .faq-list-item {
     display: flex;
-    gap: 20px;
+    gap: 8px;
     border: 1px solid #a0c3ff;
     border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 24px;
+    padding: 8px;
+    margin-bottom: 16px;
+
+    @media screen and (min-width: 768px) {
+        gap: 20px;
+        padding: 20px;
+        margin-bottom: 24px;
+    }
 }
 
 .item-number {

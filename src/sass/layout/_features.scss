@@ -1,17 +1,16 @@
 .features {
-    // background-color: #8cff6c;
     background: linear-gradient(to bottom,
             #f9bb34 0%,
             #ffffff 18%,
             #ffffff 82%,
             #ffffff 100%,
-            // #f9bb34 100%
         );
 }
 
 .features-list {
     display: flex;
-    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
 }
 
 .features-item-icon {
@@ -25,9 +24,17 @@
     align-items: center;
     justify-content: center;
     gap: 16px;
-    width: 205px;
+    width: 100%;
     padding: 15px;
     border: 2px solid transparent;
     border-radius: 16px;
     box-shadow: 4px 4px 13px -3px rgba(34, 53, 90, 0.82);
+
+    @media screen and (min-width: 768px) {
+        flex-basis: calc((100% - 16px) / 2);
+    }
+
+    @media screen and (min-width: 1158px) {
+        flex-basis: calc((100% - 48px) / 4);
+    }
 }
