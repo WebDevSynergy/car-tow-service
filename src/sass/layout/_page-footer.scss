@@ -25,3 +25,35 @@
         font-size: 20px;
     }
 }
+
+.footer-bottom {
+    margin: 20px;
+
+    text-align: center;
+}
+
+.wds-link {
+    transition: color var(--animation);
+}
+
+.wds-link:hover,
+.wds-link:focus {
+    color: darkblue;
+
+    .wds-text {
+        text-decoration: underline;
+    }
+
+    .wds-logo {
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+.wds-logo {
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #354483;
+    color: #fff;
+
+}
